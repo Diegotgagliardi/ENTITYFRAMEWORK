@@ -1,0 +1,10 @@
+create database teds;
+use teds;
+create user ''@'' identified by '';
+grant all privileges on teds.* to ''@'';
+flush privileges;
+show tables;
+select * from produtos;
+select * from clientes;
+select * from fornecedores;
+select * from usuarios;
